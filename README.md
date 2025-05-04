@@ -52,4 +52,20 @@ This tool leverages **Azure AI Content Safety** to assess the safety of input co
    ```js
    const apiUrl = "https://<your-function>.azurewebsites.net/api/analyzeNews?text=";
 
+## 🤖 AI Tools Used
+
+- **🔹 ChatGPT (by OpenAI)**  
+  Used extensively to assist in:
+  - Generating JavaScript and Python/Node backend logic
+  - Designing UI structure and manifest files
+  - Debugging issues during development
+
+- **🔹 DeepSeek Developer Assistant**  
+  Used for:
+  - Code autocompletion and optimizations
+  - Syntax validation for Chrome Extension scripting
+  - Rapid prototyping of frontend/backend code
+
+
+
 
