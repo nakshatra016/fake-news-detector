@@ -18,27 +18,27 @@ This tool leverages **Azure AI Content Safety** to assess the safety of input co
 - **Azure Functions (Optional for Teams using Azure as backend)**  
   Serverless backend that receives user input from the Chrome extension, calls the Content Safety API, and returns results.
 
-> ⚠️ Note: Teams could optionally use **Google Cloud Functions** for hosting while still calling Azure AI.
+>  Note: Teams could optionally use **Google Cloud Functions** for hosting while still calling Azure AI.
 
 ---
 
 ## 🛠️ Setup Instructions
 
-### 📦 1. Install the Chrome Extension Locally
+###  1. Install the Chrome Extension Locally
 
 1. Clone or download this repository.
 2. Open Chrome and navigate to `chrome://extensions/`.
 3. Enable **Developer Mode** (top-right).
 4. Click **"Load unpacked"** and select the project folder.
 
-### 🧪 2. Try it Out
+###  2. Try it Out
 
 - Click the extension icon in Chrome.
 - Paste any content or suspected news article text.
 - Click **Analyze**.
 - View results directly in the popup.
 
-### 🌐 3. Backend Setup (Azure Function)
+###  3. Backend Setup (Azure Function)
 
 > Skip this if using the sample function URL.
 
